@@ -1,0 +1,8 @@
+JAVA_HOME=C:\Program Files\Java\jdk-12
+%JAVA_HOME%\bin
+
+MAVEN_HOME=C:\opt\apache-maven-3.9.0
+%MAVEN_HOME%\bin
+
+mvn clean compile install
+java -jar .\target\eureka-server-0.0.1-SNAPSHOT.jar
